@@ -37,16 +37,21 @@
     }
     .skills {
         padding-top: 75px;
+        &__item {
+            h3 {
+                font-size: 21px;
+            }
+        }
         &__items {
             margin-top: 40px;
             padding: 0 10px;
             display: grid;
-            grid-template: repeat(2, minmax(270px, auto))/repeat(3, 270px);
-            grid-auto-rows: minmax(270px, auto);
+            grid-template: repeat(2, 175px) / repeat(auto-fit, 175px);
+            grid-auto-rows: minmax(175px, auto);
             justify-content: space-between;
         }
         &__ratings {
-            grid-template: repeat(2, minmax(70px, auto))/repeat(2, auto);
+            grid-template: repeat(2, minmax(70px, auto)) / repeat(2, auto);
             grid-template-areas: (70px, auto);
             grid-auto-rows: minmax(70px, auto);
             justify-content: center;
@@ -110,8 +115,8 @@
             margin-top: 40px;
             padding: 0 10px;
             display: grid;
-            grid-template: repeat(2, minmax(270px, auto))/repeat(2, 270px);
-            grid-auto-rows: minmax(270px, auto);
+            grid-template: repeat(3, 165px)/repeat(auto-fit, 165px);
+            grid-auto-rows: minmax(165px, auto);
             justify-content: space-between;
         }
         &__ratings {
@@ -170,7 +175,8 @@
             grid-row: unset;
         }
         &__skills {
-            grid-template-columns: repeat(2, 260px);
+            grid-template: repeat(3, 165px)/repeat(auto-fit, 165px);
+            grid-auto-rows: minmax(165px, auto);
             &-item {
                 grid-template-columns: 40px 200px;
                 column-gap: 20px;
@@ -190,8 +196,7 @@
             margin-top: 40px;
             padding: 0 10px;
             display: grid;
-            grid-template: repeat(2, minmax(270px, auto)) / 270px;
-            grid-auto-rows: minmax(270px, auto);
+            grid-template: repeat(3, 165px)/repeat(auto-fit, 165px);
             justify-content: center;
         }
         &__ratings {

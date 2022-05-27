@@ -1,0 +1,12 @@
+git add .
+git commit -m ""
+git remote add origin https://github.com/AlVoitka/portfolio_all.git
+git push -u origin master
+
+Portfolio_Finish
+
+git add .
+git commit -m ""
+git remote add origin https://github.com/AlVoitka/portfolio_Voitka_Finish.git
+git push -u origin master
+
