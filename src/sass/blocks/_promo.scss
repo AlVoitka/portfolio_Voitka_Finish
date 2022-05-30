@@ -1,7 +1,7 @@
 .promo {
     min-height: 100vh;
     position: relative;
-    background: url('/src/img/beckground.jpg') no-repeat 50%/cover;
+    background: url('/src/img/beckground.jpg') no-repeat 100%/cover;
     padding-top: 200px;
     &__btns {
         margin-top: 25px;
@@ -20,8 +20,7 @@
     }
     &__hi {
         position: relative;
-        padding-left: 13px;
         z-index: 2;
-        @include before_circle;
+        color: $main-color;
     }
 }

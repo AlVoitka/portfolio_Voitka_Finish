@@ -1,3 +1,8 @@
+/******/ (() => { // webpackBootstrap
+var __webpack_exports__ = {};
+/*!**************************!*\
+  !*** ./src/js/script.js ***!
+  \**************************/
 
 const closeMenu = document.querySelector('.menu__close'),
       hamburger = document.querySelector('.hamburger'),
@@ -19,11 +24,10 @@ const counters = document.querySelectorAll('.skills__ratings-counter'),
       counters.forEach( (item, i) => {
         lines[i].style.width = item.innerHTML;
       });   
-
-
-
-new WOW().init();      
       
       
     
       
+/******/ })()
+;
+//# sourceMappingURL=bundle.js.map
