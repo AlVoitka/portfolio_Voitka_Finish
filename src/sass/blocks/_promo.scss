@@ -6,7 +6,7 @@
     &__btns {
         margin-top: 25px;
         display: flex;
-        width: 250px;
+        width: 270px;
         justify-content: space-between;
         align-items: center;
     }
@@ -22,5 +22,66 @@
         position: relative;
         z-index: 2;
         color: $main-color;
+    }
+    &__title {
+        color: rgb(209, 97, 219);
+        span {
+            background: rgba($color: #2bbbe7, $alpha: 0.6);
+            padding: 0 10px 0 10px;
+            border-radius: 15px;
+        }
+    }
+    &__kite-1{
+        position: relative;
+        img {
+            width: 90px;
+            position: absolute;
+            right: 33%;
+            top: 115px;
+        }
+        &__animated {
+            animation-name: kite-1;
+            animation-duration: 23s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+
+    }
+    &__kite-2{
+        position: relative;
+        img {
+            width: 90px;
+            position: absolute;
+            right: 29%;
+        }
+        &__animated {
+            animation-name: kite-2;
+            animation-duration: 20s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
+    &__kite-3{
+        position: relative;
+        img {
+            width: 90px;
+            position: absolute;
+            right: 20%;
+        }
+        &__animated {
+            animation-name: kite-3;
+            animation-duration: 22s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
 }

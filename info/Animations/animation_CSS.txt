@@ -47,7 +47,7 @@ to {text-shadow: 0 0 3px black;}   -- конечный ключевой кадр
     }
 }
 
-2. В HTML Назначаю класс __animated элементу, который будет анимирован:
+2. В HTML Назначаю класс '__animated' элементу, который будет анимирован:
 
 <a href="#up" class="scroll-up scroll-up__animated"><img src="/src/scss/blocks/scrollUP/up-arrow.svg" alt="up"></a>
 
@@ -63,7 +63,7 @@ to {text-shadow: 0 0 3px black;}   -- конечный ключевой кадр
     img {
         width: 100%;
     }
-    &__animated {   -----------вот
+    &__animated {   -----------вот  без некоторых свойств не срабатывает!!!!
         animation-name: up-arrow;  --- свойство + имя анимации что прописал в файле _animations.scss
         animation-duration: 1s;  --- продолжительность ( без этого свойства анимация не работает)
         animation-timing-function: ease; -- анимация начинается медленно, разгоняется быстро и замедляется в конце

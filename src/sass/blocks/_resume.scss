@@ -41,12 +41,12 @@
                 position: relative;
                 &:after {
                     content: '';
-                    width: 1px;
+                    width: 2px;
                     height: calc(100% + 16px);
                     position: absolute;
-                    top: -16px;
+                    top: -21px;
                     left: 0;
-                    background-color: #000;
+                    background-color:$main-color;
                 }
             }
         }
@@ -55,11 +55,11 @@
         position: relative;
         &:before {
             content: '';
-            height: 1px;
+            height: 2px;
             width: 45px;
             position: absolute;
             top: 68px;
-            background-color: #000;
+            background-color: $main-color;
         }
         &-head {
             position: relative;

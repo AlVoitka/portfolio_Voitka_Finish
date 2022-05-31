@@ -1,4 +1,4 @@
-@import './libs/animate';
+
 @import 'libs/bootstrap-reboot.min';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 
@@ -31,7 +31,12 @@ a {
     margin: 0 auto;
 }
 
+.all_bg {
+    background: url('/src/img/Desktop_bg2.jpg') no-repeat 100%/cover;
+}
+
 @import './blocks/promo';
+@import './blocks/promo-animation';
 @import './blocks/sidepanel';
 @import './blocks/hamburger';
 @import './blocks/about';
@@ -43,6 +48,7 @@ a {
 
 
 @import './blocks/media';
+@import './libs/animate';
 
 
 

@@ -10,6 +10,18 @@
     .container {
         max-width: 960px;
     }
+    .promo {
+        &__kite-1 img {
+            width: 70px;
+        }
+        &__kite-2 img {
+            width: 70px;
+        }
+        &__kite-3 img {
+            width: 70px;
+        }
+       
+    }
     .title {
         line-height: 27px;
     }
@@ -87,6 +99,17 @@
     .container {
         max-width: 720px;
     }
+    .promo {
+        &__kite-1 img {
+            display: none;
+        }
+        &__kite-2 img {
+            display: none;
+        }
+        &__kite-3 img {
+            display: none;
+        }
+    }
     .title {
         font-size: 24px;
         line-height: 25px;
@@ -109,6 +132,7 @@
                 column-gap: 20px;
             }
         }
+        
     }
     .skills {
         &__items {
@@ -165,6 +189,14 @@
             line-height: 39px;
             width: 300px;
         }
+        &__btns {
+            margin-top: 30px;
+            display: flex;
+            width: 270px;
+            justify-content: space-between;
+            align-items: center;
+        }
+       
     }
     .about {
         padding-top: 40px;
@@ -173,13 +205,16 @@
         }
         &__photo {
             grid-row: unset;
+            img {
+                object-fit: contain;
+            }
         }
         &__skills {
-            grid-template: repeat(3, 165px)/repeat(auto-fit, 165px);
+            grid-template: repeat(2, 155px) / repeat(2,235px);
             grid-auto-rows: minmax(165px, auto);
             &-item {
-                grid-template-columns: 40px 200px;
-                column-gap: 20px;
+                grid-template-columns: 35px 200px;
+                column-gap: 13px;
             }
         }
     }
@@ -248,9 +283,16 @@
         }
     }
     .promo {
-        background: url('../img/main_bg.jpg') no-repeat 57%/cover;
+        background: url('/src/img/beckground.jpg') no-repeat 100%/cover;
         &__btns {
             margin-top: 30px;
+            display: flex;
+            width: 270px;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__link {
+            display: none;
         }
     }
     .about {
