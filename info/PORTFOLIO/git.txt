@@ -1,12 +1,9 @@
-git add .
-git commit -m ""
-git remote add origin https://github.com/AlVoitka/portfolio_all.git
-git push -u origin master
+git remote -v    -- Эта команда покажет все имена репозиториев, где вы можете делать fetch/push.
+                  Фактически к какому удаленному репозу подвязан проект
 
 Portfolio_Finish
 
 git add .
 git commit -m ""
-git remote add origin https://github.com/AlVoitka/portfolio_Voitka_Finish.git
 git push -u origin master
 

@@ -638,6 +638,10 @@ a {
   transition: 0.5s all;
 }
 
+.menu__link:hover {
+  text-decoration-line: underline;
+}
+
 .menu__link:hover:before {
   background-color: #fff;
 }
@@ -667,7 +671,7 @@ a {
   height: 100%;
   width: 100%;
   background-color: #fff;
-  opacity: 0.75;
+  opacity: 0.5;
 }
 
 .about {
@@ -1287,6 +1291,60 @@ a {
 
 .contacts__policy input {
   margin-right: 10px;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.56);
+  z-index: 22;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  min-height: 200px;
+  background-color: #38dba5;
+  padding: 38px 40px 38px 40px;
+  border-radius: 10px;
+}
+
+.modal__close {
+  position: absolute;
+  top: 15px;
+  right: 5px;
+  font-size: 47px;
+  line-height: 23px;
+  font-weight: normal;
+  color: #eaf5ec;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.modal__close:hover {
+  color: red;
+  transform: rotate(180deg);
+}
+
+.modal__subtitle {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.modal__descr {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin: 10px 0 10px 0;
 }
 
 @media (max-width: 1439px) {

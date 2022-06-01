@@ -96,6 +96,7 @@
             transition: 0.5s all;
         }
         &:hover {
+            text-decoration-line: underline;
             &:before {
                 background-color: #fff;
             }
@@ -124,6 +125,6 @@
         height: 100%;
         width: 100%;
         background-color: #fff;
-        opacity: 0.75;
+        opacity: 0.5;
     }
 }
