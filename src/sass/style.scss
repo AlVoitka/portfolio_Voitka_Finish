@@ -6,6 +6,22 @@
 @import './base/title';
 @import './base/buttons';
 
+@import './blocks/promo';
+@import './blocks/promo-animation';
+@import './blocks/sidepanel';
+@import './blocks/hamburger';
+@import './blocks/about';
+@import './blocks/resume';
+@import './blocks/skills';
+@import './blocks/portfolio';
+@import './blocks/price';
+@import './blocks/contacts';
+@import './blocks/modal';
+
+
+@import './blocks/media';
+@import './libs/animate';
+
 
 
 * {
@@ -34,21 +50,7 @@ a {
     background: url('/src/img/Desktop_bg2.jpg') no-repeat 100%/cover;
 }
 
-@import './blocks/promo';
-@import './blocks/promo-animation';
-@import './blocks/sidepanel';
-@import './blocks/hamburger';
-@import './blocks/about';
-@import './blocks/resume';
-@import './blocks/skills';
-@import './blocks/portfolio';
-@import './blocks/price';
-@import './blocks/contacts';
-@import './blocks/modal';
 
-
-@import './blocks/media';
-@import './libs/animate';
 
 
 
