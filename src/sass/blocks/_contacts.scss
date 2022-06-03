@@ -25,7 +25,6 @@
     &__title {
         position: relative;
         padding: 1px 0 0 12px;
-        @include before_circle;
     }
     &__text, &__social {
         margin-top: 20px;

@@ -3,7 +3,6 @@
     &__title {
         position: relative;
         text-align: center;
-        @include before_circle;
         &:before {
             top: -6px;
             left: 50%;
@@ -76,7 +75,6 @@
             position: absolute;
             top: 50px;
             left: 45px;
-            @include before_circle;
             img {
                 position: absolute;
                 left: 17px;
