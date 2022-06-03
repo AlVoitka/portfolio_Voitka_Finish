@@ -4,11 +4,12 @@
 в паку JS
 
 2.и затем подключаю его в HTML:
-<script src="./js/wow.min.js"></script>
+    <script src="dist/js/wow.min.js"></script>
+    <script src="dist/js/bundle.js"></script>
 
 но лучше через webpack в сборк уего а не HTML
 
-3. В основном файле script.js нужно инициализировать работу вова:
+3. В основном файле script.js ниже всего кода нужно инициализировать работу вова:
 
 new WOW().init();
 

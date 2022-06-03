@@ -1,0 +1,26 @@
+Файл манифеста содержит информацию об иконках, цветовой теме, ориентации экрана, начальном URL и т.д. 
+Используется для создания виджета в закладках браузеров.
+
+Подключение файла в head
+<link rel="manifest" href="/manifest.json">
+HTML
+Пример файла
+{
+	"lang": "ru",
+	"name": "Моё приложение",
+	"description": "Описание приложения",
+	"icons": [{
+		"src": "/icon.png",
+		"sizes": "64x64",
+		"type": "image/png"
+	}],
+	"start_url": "/",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#000000",
+	"screenshots": [{
+		"src": "/screenshots.jpg",
+		"sizes": "640x480",
+		"type": "image/jpeg"
+	}]
+}
